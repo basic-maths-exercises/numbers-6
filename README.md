@@ -10,7 +10,7 @@ Digressions about the history of western philosophy aside we are, in this exerci
 
 ![](hex.png)
 
-__To complete this task you must finish the function c`onvertToHex`__. This function takes an integer, `N`, that is less than 69905 as input.  When you have completed it should return a list with 5 elements.  These five numbers are the five digits of the number in hex.  As letters are used when representing numbers in hexidecimal you cannot use a numpy array here but have to use a python list here.  To create a python list and assign the elements of it you will need to write code such as the one given below:
+__To complete this task you must finish the function `convertToHex`__. This function takes an integer, `N`, that is less than 69905 as input.  When you have completed it should return a list with 5 elements.  These five numbers are the five digits of the number in hex.  As letters are used when representing numbers in hexidecimal you cannot use a numpy array here but have to use a python list here.  To create a python list and assign the elements of it you will need to write code such as the one given below:
 
 ````
 mylist = 5*["0"]
