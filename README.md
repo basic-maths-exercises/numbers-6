@@ -6,7 +6,7 @@ This disconnection between objects and their representation was articulated by P
 
 We can what Plato is talking about when we consider the new conception of number that we have obtained from performing the last few tasks.  We can only say that 111 is the number one hundred and eleven because we have been brought up in a culture that reveres base ten.  This set of symbols might, however, represent the number seven in base two.
 
-Digressions about the history of western philosophy aside we are, in this exercise, going to consider to learn how to write numbers in base 16 (which is known as hexadecimal or hex).  There is an immediate problem here - we only have 10 symbols in the Arabic number system (0,1,2,3,4,5,6,7,8,9]) To operate in base 16, however, we need 16 symbols so we need to supplement our Arabic number system with additional symbols.  We thus represent the first 16 numbers as follows:
+Digressions about the history of western philosophy aside we are, in this exercise, going to consider to learn how to write numbers in base 16 (which is known as hexadecimal or hex).  There is an immediate problem here - we only have 10 symbols in the Arabic number system (0,1,2,3,4,5,6,7,8,9) To operate in base 16, however, we need 16 symbols so we need to supplement our Arabic number system with additional symbols.  We thus represent the first 16 numbers as follows:
 
 ![](hex.png)
 
