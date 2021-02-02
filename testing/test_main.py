@@ -19,13 +19,14 @@ class UnitTests(unittest.TestCase) :
             inputs.append((val,))
             for j in range(5) : 
                ppp = 16**(4-j)
-               vv = int(np.floor( val / ppp ) )
+               vv = np.floor( val / ppp )
                val = val - vv*ppp
-               ov.append( str(vv) )
                if vv==10 : ov.append("A")
                elif vv==11 : ov.append("B")
                elif vv==12 : ov.append("C")
                elif vv==13 : ov.append("D") 
                elif vv==14 : ov.append("E")
                elif vv==15 : ov.append("F")
+               else : ov.append( str(vv) )
+            outputs.append(ov)
         assert( fc.check_func('convertToHex', inputs, outputs ) )
